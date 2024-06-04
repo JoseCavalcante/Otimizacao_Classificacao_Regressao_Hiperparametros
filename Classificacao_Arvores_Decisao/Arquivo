@@ -10,6 +10,17 @@ para a predição, assim como determina a separação dos ramos da árvore.
 sendo que as mais aplicadas são a entropia (medida da falta de homogeneidade) e o índice de Gini (medida do grau de heterogeneidade). 
 
 PODAGEM DAS ÁRVORES
+Objetiva diminuir a probabilidade de overfitting.
+
+Pode ser de duas formas:
+Pré-podagem: parar o crescimento da árvore.
+Pós-podagem: poda com a árvore já completa.
+
+Processo de podagem:
+Percorre a árvore em profundidade.
+Para cada nó de decisão calcula o erro no nó e a soma dos erros nos nós descendentes. 
+Se o erro do nó é menor ou igual à soma dos erros dos nós descendentes então o nó é transformado em folha.
+
 
 
 
