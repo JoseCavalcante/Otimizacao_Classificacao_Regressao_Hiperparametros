@@ -1,38 +1,34 @@
 ÁRVORES DE DECISÃO (Decision Tree)
+
 1 - Aplicado em problemas de aprendizagem supervisionada tanto de classificação (mais utilizado) como de regressão.
 2 - Seleciona a ordem que os atributos irão aparecer na árvore, sempre de cima para baixo, conforme sua importância 
 para a predição, assim como determina a separação dos ramos da árvore.
-
 3 - Estrutura similar a um fluxograma. É composto por nós, ramos e folhas
-
 4 - Para determinar o nível de importância de um atributo, denominado de ganho de informação, utiliza-se de várias métricas, 
 sendo que as mais aplicadas são a entropia (medida da falta de homogeneidade) e o índice de Gini (medida do grau de heterogeneidade). 
 
 PODAGEM DAS ÁRVORES
-Objetiva diminuir a probabilidade de overfitting.
 
+Objetiva diminuir a probabilidade de overfitting.
 Pode ser de duas formas:
-Pré-podagem: parar o crescimento da árvore.
-Pós-podagem: poda com a árvore já completa.
+- Pré-podagem: parar o crescimento da árvore.
+- Pós-podagem: poda com a árvore já completa.
 
 Processo de podagem:
-Percorre a árvore em profundidade.
-Para cada nó de decisão calcula o erro no nó e a soma dos erros nos nós descendentes. 
+
+- Percorre a árvore em profundidade.
+- Para cada nó de decisão calcula o erro no nó e a soma dos erros nos nós descendentes. 
 Se o erro do nó é menor ou igual à soma dos erros dos nós descendentes então o nó é transformado em folha.
 
 Vantagens:
+
 - Fácil entendimento e interpretação.
-
 - Normalmente não necessitam de preparações sofisticadas nos dados (label Encoder e OneHot Encoder).
-
 - Trabalha com valores faltantes, variáveis categóricas e numéricas.
-
 - Atua com dados não linearmente separáveis.  
 
 Desvantagens:
+
 - Sujeito a problemas de overfitting.
-
 - Os modelos são instáveis (possuem alta variância).
-
 - Não garante a construção da melhor estrutura para os dados de treino em questão (Necessita treinar várias árvores distintas).
-
