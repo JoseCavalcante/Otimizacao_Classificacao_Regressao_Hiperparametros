@@ -1,1 +1,5 @@
+Random Search:
 
+- Os valores são selecionados aleatoriamente de uma distribuição uniforme do espaço de hiperparâmetros. 
+- Isto é, seleciona-se as combinações de valores de hiperparâmetros aleatoriamente de todas as combinações 
+  possíveis, dado um espaço de hiperparâmetros. 
