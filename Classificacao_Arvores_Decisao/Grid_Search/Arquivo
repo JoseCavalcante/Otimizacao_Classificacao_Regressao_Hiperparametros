@@ -1,5 +1,24 @@
 Grid Search
 Pesquisa através de um subconjunto selecionado de hiperparâmetros de um determinado algoritmo.
-
 Verifica todas as combinações possíveis dos hiperparâmetros especificados:
+
+Exemplo:
+Hiperparâmetro 1: {A , B, C}
+Hiperparâmetro 2: {10, 40, 70, 100}
+Hiperparâmetro 3: {f, g}
+
+Total de combinações: 3 x 4 x 2 = 24
+
+Vantagens do Grid Search:
+
+Muito aplicado para algoritmo com poucos hiperparâmetros.
+Excelente desempenho com hiperparâmetros simples (poucas classes e valores discretos).
+Pode ser paralelizado (algoritmos implantado em vários computadores).
+
+Limitações do Grid Search:
+
+Quanto maior a quantidade de hiperparâmetros maior a quantidade de combinações, torna-se computacionalmente caro.
+Valores dos hiperparâmetros são determinados manualmente.
+Inviável quando for hiperparâmetros contínuos.
+Não explora todo espaço de hiperparâmetros.
 
