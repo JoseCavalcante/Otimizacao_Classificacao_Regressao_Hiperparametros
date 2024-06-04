@@ -1,4 +1,4 @@
-# Otimizacao_Hiperparametros
+# Otimizacao de Hiperparametros
 
 ## Parâmetros e Hiperparâmetros
 <b>Parâmetros</b>: Ajuste diretamente no aprendizado. Através de um conjunto de parâmetros o algoritmo encontra uma função que minimiza as perdas em um conjunto de dados, isto é, são intrínsecos à equação do modelo.
