@@ -1,1 +1,10 @@
+XGBOOST (eXtreme Gradient Boosting)
+
+Algoritmo poderoso baseado em árvores de decisão.
+
+É uma evolução do algoritmo Gradient Boosting (aumento de Gradiente) que por sua vez é uma evolução do Random Forest.
+
+Apresenta aderência a grande variedades de aplicações.
+
+Roda em várias linguagens de programação, nos principais sistemas operacionais e em nuvem.
 
