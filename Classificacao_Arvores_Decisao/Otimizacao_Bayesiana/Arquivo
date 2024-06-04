@@ -1,1 +1,17 @@
+Otimização Bayesiana
 
+- Abordagem que utiliza o Teorema de Bayes para direcionar a busca da maximização ou minimização de uma função objetivo.
+- Indicada para funções objetivas complexas e/ou “caras” para avaliar.
+- Diferente do Random Search e do Grid Search, o algoritmo de otimização Bayesiana aprende em cada iteração.
+- O usuário indica uma faixa de valores de cada hiperparâmetro e uma métrica a ser maximizada ou minimizada.
+- O algoritmo gera uma função, denominada substituta (surrogate), após as iterações pré-definidas.
+
+Cada ponto na função substituta representa a probabilidade pelo teorema de Bayes da pontuação para a métrica do hiperparâmetro.
+Para selecionar o próximo ponto a ser testado, que objetiva a maximização da função, utiliza-se uma função denominada aquisição.
+
+Ciclo:
+ 
+1) Seleciona uma amostra aleatória otimizando a função de aquisição.
+2) Avalia a amostra com a função objetivo.
+3) Atualiza os dados e, por sua vez, a função substituta.
+4) Retorna ao início até atingir o melhor resultado.
