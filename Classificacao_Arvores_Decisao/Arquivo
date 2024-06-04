@@ -21,6 +21,17 @@ Percorre a árvore em profundidade.
 Para cada nó de decisão calcula o erro no nó e a soma dos erros nos nós descendentes. 
 Se o erro do nó é menor ou igual à soma dos erros dos nós descendentes então o nó é transformado em folha.
 
+Vantagens:
+- Fácil entendimento e interpretação.
+
+- Normalmente não necessitam de preparações sofisticadas nos dados (label Encoder e OneHot Encoder).
+
+- Trabalha com valores faltantes, variáveis categóricas e numéricas.
+
+- Atua com dados não linearmente separáveis.  
+
+
+
 
 
 
