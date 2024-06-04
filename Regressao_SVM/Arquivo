@@ -1,1 +1,38 @@
+MÁQUINAS DE VETORES DE SUPORTE (SVM)
+
+Aplicado em problemas de aprendizagem supervisionada tanto de classificação como de regressão.
+Em classificação é conhecido como Classificador de Vetor de Suporte (SVC).
+
+Algumas Aplicações:
+
+- Classificação.
+- Categorização de textos.
+- Reconhecimento de imagem.
+- Detecção facial.
+- Detecção de anomalias.
+- Reconhecimento de letras manuscritas.
+
+Constante de penalização (custo):
+
+- Hiperparâmetro C: controla a tolerância dos erros.
+- Quanto maior o valor de C, maior o poder de separação das classes, porém maior a probabilidade de overfitting e do tempo de treinamento.
+- Quanto menor o valor C, maior a chance de erros na separação e consequentemente ocasiona underfitting
+
+Vantagens:
+
+- Não é influenciado por dados discrepantes.
+- Solução de problemas lineares e não lineares.
+- Muito efetivo para datasets grandes.
+- Consegue aprender com características não pertencentes aos dados. 
+
+Desvantagens:
+
+- Difícil interpretação teórica devido a matemática complexa.
+- Difícil visualização gráfica.
+- É lento comparado aos outros algoritmos.
+- Deve-se ter um grande cuidado com as definições dos hiperparâmetros para evitar overfitting e underfitting. 
+
+
+
+
 
