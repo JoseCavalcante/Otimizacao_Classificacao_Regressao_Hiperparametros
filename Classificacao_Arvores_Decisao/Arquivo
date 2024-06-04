@@ -30,8 +30,10 @@ Vantagens:
 
 - Atua com dados não linearmente separáveis.  
 
+Desvantagens:
+- Sujeito a problemas de overfitting.
 
+- Os modelos são instáveis (possuem alta variância).
 
-
-
+- Não garante a construção da melhor estrutura para os dados de treino em questão (Necessita treinar várias árvores distintas).
 
