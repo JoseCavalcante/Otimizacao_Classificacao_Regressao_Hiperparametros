@@ -1,1 +1,5 @@
+Grid Search
+Pesquisa através de um subconjunto selecionado de hiperparâmetros de um determinado algoritmo.
+
+Verifica todas as combinações possíveis dos hiperparâmetros especificados:
 
