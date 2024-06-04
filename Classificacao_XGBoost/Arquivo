@@ -8,3 +8,6 @@ Apresenta aderência a grande variedades de aplicações.
 
 Roda em várias linguagens de programação, nos principais sistemas operacionais e em nuvem.
 
+Evolução:
+
+Decison Tree -> Bagging -> Randon Forest -> Boosting -> Gradient Boosting -> XGBoost
