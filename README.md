@@ -28,6 +28,18 @@ Podem ser discretos (número de camadas) ou contínuos (intervalo entre um míni
 
 4 - Otimização Bayesiana (algoritmo aprende com os testes anteriores e testa faixas de valores com base na probabilidade de melhores resultados dos hiperparâmetros).
 
+## Métodos de otimização de Hiperparâmetros
+O ajuste consiste em procurar por:
+
+1 - Seleção dos hiperparâmetros principais.
+
+2 - Definição de um espaço de hiperparâmetros.
+
+3 - Aplicação da validação cruzada.
+
+4 - Utilização de uma métrica de desempenho para validação.
+
+
 
 
 
